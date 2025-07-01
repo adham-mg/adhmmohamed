@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Adham AI</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN للأيقونات -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <!-- النافيجيشن -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">Adham AI</div>
+      <ul class="nav-links">
+        <li><a href="#features">الميزات</a></li>
+        <li><a href="#about">عن الشركة</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- الهيدر -->
+  <header>
+    <div class="header-content">
+      <h1>مرحبا بك في موقع Adham AI للذكاء الاصطناعي</h1>
+      <p>اكتشف قوة الذكاء الاصطناعي مع حلولنا المبتكرة</p>
+    </div>
+  </header>
+
+  <!-- الميزات -->
+  <section id="features" class="features-section">
+    <h2>مميزاتنا</h2>
+    <div class="features-grid">
+      <div class="feature">
+  <i class="fas fa-robot"></i>
+  <h3>ذكاء عالي</h3>
+  <p>نظام ذكي قادر على تحليل البيانات بدقة عالية.</p>
+  <img src="images/feature1.png" alt="صورة ميزة ذكاء عالي" class="feature-img" />
+</div>
+
+      <div class="feature">
+  <i class="fas fa-cogs"></i>
+  <h3>حلول مبتكرة</h3>
+  <p>نقدم حلول تكنولوجية متطورة تناسب احتياجاتك.</p>
+  <img src="images/feature2.png" alt="صورة ميزة حلول مبتكرة" class="feature-img" />
+</div>
+
+<div class="feature">
+  <i class="fas fa-shield-alt"></i>
+  <h3>أمان تام</h3>
+  <p>نحرص على حماية بياناتك وتأمين خدماتنا بشكل كامل.</p>
+  <img src="images/feature3.png" alt="صورة ميزة أمان تام" class="feature-img" />
+</div>
+
+  </section>
+
+  <!-- قسم عن الشركة -->
+  <section id="about" class="about-section">
+    <h2>عن Adham AI</h2>
+    <p>
+      Adham AI هي شركة رائدة في حلول الذكاء الاصطناعي، نقدم لك أفضل الخدمات لتحويل أفكارك إلى واقع مبتكر. نحن نستخدم أحدث التقنيات في مجال الذكاء الاصطناعي والتعلم الآلي لنقدم لك حلولًا ذكية تلبي احتياجاتك بكفاءة عالية. فريقنا من الخبراء ملتزم بتوفير الدعم الكامل وتحقيق النجاح في مشاريعك.
+    </p>
+  </section>
+
+  <!-- زر فتح مودال التسجيل (الجديد) -->
+  <div style="text-align:center; margin: 30px 0;">
+    <button id="open-auth-modal" class="auth-open-btn" aria-haspopup="dialog" aria-controls="auth-modal" aria-expanded="false">
+      هل أنت جديد؟ انضم إلينا أو سجل الدخول
+    </button>
+  </div>
+
+  <!-- مودال التسجيل وتسجيل الدخول (الجديد) -->
+  <div id="auth-modal" class="hidden" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title" aria-hidden="true">
+    <div class="auth-modal-content">
+      <button id="auth-modal-close" class="auth-modal-close" aria-label="إغلاق">×</button>
+      <h2 id="auth-modal-title">مرحبًا بك!</h2>
+      <p>هل أنت جديد؟ انضم إلينا الآن</p>
+      <button id="btn-register" class="auth-btn">التسجيل</button>
+      <p>هل لديك حساب؟</p>
+      <button id="btn-login" class="auth-btn">تسجيل الدخول</button>
+    </div>
+  </div>
+
+  <!-- الفوتر -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-about">
+        <h4>عن Adham AI</h4>
+        <p>
+          Adham AI هي شركة رائدة في حلول الذكاء الاصطناعي، نقدم لك أفضل الخدمات لتحويل أفكارك إلى واقع مبتكر.
+        </p>
+      </div>
+      <div class="footer-contact">
+        <h4>اتصل بنا</h4>
+        <p>البريد الإلكتروني: contact@adhamai.com</p>
+        <p>الهاتف: 01118345377</p>
+        <p>العنوان: شارع التقنية، المدينة، مصر</p>
+
+        <!-- روابط السوشيال -->
+        <div class="social-links">
+          <a href="https://www.facebook.com/adham.mohammed.614955?rdid=u11cMsE2mjHpIGc8&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F16FyTe7exA%2F" target="_blank" aria-label="فيسبوك">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/adhm_mohammed_22?igsh=djY5bHl6bGZicmc=" target="_blank" aria-label="إنستجرام">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+    <p>
+      <i class="fa-regular fa-copyright"></i> جميع الحقوق محفوظة لـ Adham Mohammed
+    </p>
+    <p class="made-by">Made by Adham Mohammed</p>
+  </div>
+  </footer>
+
+  <!-- زر البوت العائم -->
+  <div id="chat-button" aria-label="فتح دردشة بوت Adham AI" role="button" tabindex="0">
+    <i class="fas fa-comment-dots"></i>
+  </div>
+
+  <!-- نافذة البوت -->
+  <div id="chat-box" class="hidden" role="dialog" aria-modal="true" aria-labelledby="chat-header-title" aria-hidden="true">
+    <div id="chat-header">
+      <h3 id="chat-header-title">بوت Adham AI</h3>
+      <button id="chat-close" aria-label="إغلاق نافذة الدردشة">&times;</button>
+    </div>
+    <div id="chat-body">
+      <p>مرحبا! كيف يمكنني مساعدتك اليوم؟</p>
+    </div>
+    <input
+      type="text"
+      id="chat-input"
+      placeholder="اكتب رسالتك هنا..."
+      autocomplete="off"
+      aria-label="حقل إدخال رسالة الدردشة"
+    />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
